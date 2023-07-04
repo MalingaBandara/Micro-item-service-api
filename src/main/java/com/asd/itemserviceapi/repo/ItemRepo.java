@@ -7,4 +7,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableJpaRepositories
 public interface ItemRepo extends JpaRepository<Item, String> {
+
 }

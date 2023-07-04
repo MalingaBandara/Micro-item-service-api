@@ -16,9 +16,14 @@ import javax.persistence.Table;
 @Table(name="item")
 @Entity
 public class Item {
+
     @Id
     private String id;
+
     private String description;
+
     private double unitPrice;
+
     private int qty;
+
 }
